@@ -1,0 +1,60 @@
+@media(max-width: 770px) {
+    .card1 {
+        width: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25%;
+    }
+
+    .card2 {
+        width: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+}
+  
+@media(max-width: 1299px) and (min-width: 1020px) {
+
+    .card1 {
+        width: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25%;
+    }
+
+    .card2 {
+        width: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+}
+
+@media(min-width: 1300px) and (max-width: 1366px) {
+    .card1 {
+        width: 18rem;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+
+    .card2 {
+        width: 18rem;
+        margin-top: -36rem;
+        margin-left: 27%;
+    }
+}
+
+@media(max-width: 1920px) and (min-width: 1367px) {
+    .card1 {
+        width: 18rem;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+
+    .card2 {
+        width: 18rem;
+        margin-top: -36rem;
+        margin-left: 23%;
+    }
+}

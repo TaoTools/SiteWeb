@@ -1,4 +1,9 @@
-@media(max-width: 730px) {
+@media(max-width: 770px) {
+
+  body {
+    background-size: 0;
+    background-image: none;
+  }
 
   .title {
     padding-top: 10%;
@@ -11,22 +16,32 @@
     opacity: 0;
   }
 
-  .img-ill {
+  .block1 {
+    display: none;
+  }
+
+  .block2 {
+    display: none;
+  }
+
+  .block3 {
+    display: none;
+  }
+
+  .btn-hp {
+    width: 0;
+    height: 0;
     opacity: 0;
   }
 
-  body {
-    background-color: white;
-    background-image: none;
+  .navbar {
+    z-index: 10;
   }
 
-  .Title1 {
-    font-size: 30px;
-    position: relative;
-  }
-
-  .paragMain {
-    width: 100%
+  .telMSG {
+    display: flex;
+    margin-top: 15%;
+    z-index: 0;
   }
 
 }
@@ -47,7 +62,21 @@
 
   .block3 {
     margin-top: -330px;
-    margin-bottom: 120px;
+    margin-bottom: 200px;
+  }
+
+  .telMSG {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
   }
 
 }
@@ -64,11 +93,25 @@
 
   .block3 {
     margin-top: -350px;
-    margin-bottom: 120px;
+    margin-bottom: 200px;
   }
 
   .para2 {
     margin-right: 10%;
+  }
+
+  .telMSG {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
   }
 
 }
@@ -80,7 +123,39 @@
 
   .block3 {
     margin-top: -20%;
-    margin-bottom: 120px;
+    margin-bottom: 200px;
+  }
+
+  .telMSG {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+  }
+
+}
+
+@media(min-width: 1921px) {
+  .telMSG {
+    display: none;
+  }
+
+
+  body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
   }
 
 }
@@ -125,6 +200,12 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
   display: none;
 }
 
+
+.vlb {
+  width: 30%;
+  font-size: 20px;
+}
+
 .appear {
   opacity: 0;
   top: 200px;
@@ -152,16 +233,6 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 
 .title {
   margin-top: 10%;
-}
-
-body {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  background-image: url("../images/bg.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100%;
 }
 
 h1 {

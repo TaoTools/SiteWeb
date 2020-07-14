@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/images/TaoTools.png">
     <title>TaoTools</title>
 
         <!--import JavaScript-->
@@ -23,7 +24,7 @@
 </head>
 <body>
     <body class="Site">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; width: 100%; top: 0;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; width: 100%; top: 0; z-index: 10;">
             <a class="navbar-brand" href="#CC">TaoTools</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -31,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="./acceuil.html">Acceuil</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -56,21 +57,26 @@
             </div>
           </nav>
 
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card card1">
+            <img src="./src/images/DevTools.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Dev Tools</h5>
+              <p class="card-text">Dev Tools est un bot qui aide au dévellopement. Il vous permetra notament d'installer des programme simplement avec des liens directs.</p>
+              <button class="btn btn-outline-primary" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=731297744420995153&scope=bot&permissions=8';">L'ajouter à son serveur</button>
+              <button class="btn btn-outline-primary" disabled style="margin-top: 3px;">Fiche du bot sur top.gg</button>
             </div>
           </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="./src/images/DevTools.png" class="card-img-top" alt="...">
+          <div class="card card2">
+            <img src="./src/images/UtilsTools.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Utils Tools</h5>
+              <p class="card-text">UtilsTools est un futur bot qui vous sera sans doute pratique dans plusieurs situation. Il : raccourcira les urls, pourra télécharger des vidéos youtube format mp3 ou mp4, purra généré des nombres randoms, aura un salon avec des auto-reaction pour des votes et bien plus !</p>
+              <button class="btn btn-outline-primary" disabled>L'ajouter à son serveur</button>
+              <button class="btn btn-outline-primary" disabled style="margin-top: 3px;">Fiche du bot sur top.gg</button>
             </div>
           </div>
+        </body>
+    </body>
+</html>
           
