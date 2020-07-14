@@ -1,0 +1,143 @@
+@font-face {
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: normal;
+src: local('HelveticaNeue'), url('../font/HelveticaNeue.ttf') format('woff');
+}
+
+
+@font-face {
+font-family: 'HelveticaNeueBd';
+font-style: normal;
+font-weight: normal;
+src: local('HelveticaNeueBd'), url('../font/HelveticaNeueBd.ttf') format('woff');
+}
+
+@font-face {
+font-family: 'HelveticaNeue Thin';
+font-style: normal;
+font-weight: normal;
+src: local('HelveticaNeue Thin'), url('../font/HelveticaNeue Thin.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLt';
+  font-style: normal;
+  font-weight: normal;
+  src: local('HelveticaNeueLt'), url('../font/HelveticaNeueLt.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('HelveticaNeue Medium'), url('../font/HelveticaNeue Medium.ttf') format('woff');
+}
+
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+h1 {
+  font-family: 'HelveticaNeue Medium';
+  color: #23272A;
+}
+
+h5, p {
+  font-family: 'HelveticaNeueLt';
+  color: #23272A;
+}
+
+.callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+  }
+.callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.callout code {
+  border-radius: 3px;
+}
+.callout + .bs-callout {
+  margin-top: -5px;
+}
+
+.callout-default {
+  border-left-color: #777;
+}
+.callout-default h4 {
+  color: #777;
+}
+
+.callout-primary {
+  border-left-color: #428bca;
+}
+.callout-primary h4 {
+  color: #428bca;
+}
+
+.callout-success {
+  border-left-color: #5cb85c;
+}
+.callout-success h4 {
+  color: #5cb85c;
+}
+
+.callout-danger {
+  border-left-color: #d9534f;
+}
+.callout-danger h4 {
+  color: #d9534f;
+}
+
+.callout-warning {
+  border-left-color: #f0ad4e;
+}
+.callout-warning h4 {
+  color: #f0ad4e;
+}
+
+.callout-info {
+  border-left-color: #5bc0de;
+}
+.callout-info h4 {
+  color: #5bc0de;
+}
+
+.callout-bdc {
+  border-left-color: #29527a;
+}
+.callout-bdc h4 {
+  color: #29527a;
+}
+
+.buttona {
+  color: white;
+}
+
+.buttona {
+  color: white;
+}
+
+.buttona:hover {
+  color: white;
+  text-decoration: none;
+}
+
+::selection {
+  background-color: #c6e5ee;
+}
