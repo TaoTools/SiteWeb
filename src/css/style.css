@@ -1,3 +1,90 @@
+@media(max-width: 730px) {
+
+  .title {
+    padding-top: 10%;
+    font-size: 30px;
+  }
+
+  .btn-commencer {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  .img-ill {
+    opacity: 0;
+  }
+
+  body {
+    background-color: white;
+    background-image: none;
+  }
+
+  .Title1 {
+    font-size: 30px;
+    position: relative;
+  }
+
+  .paragMain {
+    width: 100%
+  }
+
+}
+
+@media(max-width: 1299px) and (min-width: 1020px) {
+
+  .block1 {
+    margin-top: -15%;
+  }
+
+  .block2 {
+    margin-top: -5%;
+  }
+
+  .para2 {
+    margin-right: 15%;
+  }
+
+  .block3 {
+    margin-top: -330px;
+    margin-bottom: 120px;
+  }
+
+}
+
+@media(min-width: 1300px) and (max-width: 1366px) {
+
+  .block1 {
+    margin-top: -30px;
+  }
+
+  .block2 {
+    margin-top: 20px;
+  }
+
+  .block3 {
+    margin-top: -350px;
+    margin-bottom: 120px;
+  }
+
+  .para2 {
+    margin-right: 10%;
+  }
+
+}
+
+@media(max-width: 1920px) and (min-width: 1367px) {
+  .block2 {
+    margin-top: 5%;
+  }
+
+  .block3 {
+    margin-top: -20%;
+    margin-bottom: 120px;
+  }
+
+}
+
 @font-face {
 font-family: 'HelveticaNeue';
 font-style: normal;
@@ -34,6 +121,38 @@ src: local('HelveticaNeue Thin'), url('../font/HelveticaNeue Thin.ttf') format('
   src: local('HelveticaNeue Medium'), url('../font/HelveticaNeue Medium.ttf') format('woff');
 }
 
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+.appear {
+  opacity: 0;
+  top: 200px;
+}
+
+.paragMain {
+  margin-top: 2%;
+  margin-left: 3%;
+  width: 50%
+}
+
+.blcrel2 {
+  margin-right: 20%;
+}
+
+.Title1 {
+  margin-top: 45%;
+  margin-left: 3%;
+}
+
+.Title3 {
+  margin-top: 45%;
+  margin-left: 3%;
+}
+
+.title {
+  margin-top: 10%;
+}
 
 body {
   width: 100%;

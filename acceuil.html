@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr" id="haut_page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaoTools</title>
+
+        <!--import JavaScript-->
+        <script type="text/javascript" src="./src/js/index.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    
+        <!--import CSS-->
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <body class="Site">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; width: 100%; top: 0;">
+            <a class="navbar-brand" href="#CC">TaoTools</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Bots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">DevTools</a>
+                      <a class="dropdown-item" href="#">UtilsTools</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="./bots.html">Tous les bots</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link">TaoTools</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/TaoTools" target="_blank">GitHub</a>
+                </li>
+              </ul>
+                <button type="button" class="btn btn-outline-primary" onclick="Fullscreen()" id="FullScreenButton">FullScreen</button>
+                <button type="button" class="btn btn-outline-primary" onclick="" style="margin-left: 1%;">Nous contacter</button>
+            </div>
+          </nav>
+
+
+
+          <h1 class="text-center title">Bienvenue sur TaoTools</h1>
+          <h5 class="text-center">Dévellopement de bots discord</h5>
+
+          <div class="d-flex justify-content-center" style="margin-top: 3%;">
+            <button type="button" class="btn btn-primary btn-commencer" id="scroll">
+                Commencer
+            </button>
+          </div>
+
+        <div class="block1 appear" data-delai="0">
+          <h1 id="start" class="Title1">Une gamme de bots français !</h1>
+          <p class="paragMain">Des bots tous en français. Pratique et utile il vous servirons dans de multiples situations. Ils sont destinés à plusieurs type de publique que ce soit des dévellopeurs au simple utilisateur de la plateforme discord. Simple d'utilisations, il vous aiderons, simplifirons ou même améliorerons vos espace de traveaux ou de loisir grace à des commandes simple et utiles.</p>
+          <div class="d-flex flex-row-reverse bd-highlight img-ill" style="margin-right: 5%; margin-top: -15%;"><img src="./src/images/french.png" style="width: 30%;" class="rounded"></div>
+        </div>
+
+        <div class="block2 appear" data-delai="0">
+          <div class="d-flex flex-row-reverse bd-highlight blcrel2"><h1 class="Title3" id="start">Une gamme de bots français !</h1></div>
+          <div class="d-flex flex-row-reverse bd-highlight"><p class="paragMain para2">Des bots tous en français. Pratique et utile il vous servirons dans de multiples situations. Ils sont destinés à plusieurs type de publique que ce soit des dévellopeurs au simple utilisateur de la plateforme discord. Simple d'utilisations, il vous aiderons, simplifirons ou même améliorerons vos espace de traveaux ou de loisir grace à des commandes simple et utiles.</p></div>
+          <div class="d-flex flex-row bd-highlight img-ill" style="margin-left: 5%; margin-top: -20%;"><img src="./src/images/profile.png" style="width: 20%;" class="rounded"></div>
+        </div>
+
+        <div class="block3 appear" data-delai="0">
+          <h1 id="start" class="Title3">Une gamme de bots français !</h1>
+          <p class="paragMain">Des bots tous en français. Pratique et utile il vous servirons dans de multiples situations. Ils sont destinés à plusieurs type de publique que ce soit des dévellopeurs au simple utilisateur de la plateforme discord. Simple d'utilisations, il vous aiderons, simplifirons ou même améliorerons vos espace de traveaux ou de loisir grace à des commandes simple et utiles.</p>
+          <div class="d-flex flex-row-reverse bd-highlight img-ill" style="margin-right: 20%; margin-top: -15%;"><img src="./src/images/TaoTools.png" style="width: 20%; right: 0;" class="rounded"></div>
+        </div>
+
+</body>
+    <footer>
+        <button type="button" class="btn btn-outline-secondary" id="retour" style="margin: 1%;">Retour en haut de page</button>
+    </footer>
+</html>
+
+
+<!-- <div class="callout callout-primary" style="margin: 1%; margin-top: 5%;">
+  <h4>Titre</h4>
+  <p>Para</p>
+</div> -->

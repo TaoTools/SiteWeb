@@ -1,3 +1,18 @@
+$(window).scroll(function(){
+  var scrolledFromTop = $(window).scrollTop() + $(window).height();
+  $(".appear").each(function(){
+    var distanceFromTop = $(this).offset().top;
+    if(scrolledFromTop >= distanceFromTop+200){
+      console.log("hello");
+      var delaiAnim = $(this).data("delai");
+      $(this).delay(delaiAnim).animate({
+        top:0,
+        opacity:1
+      });
+    }
+  });
+});
+
 $(document).ready(function () {
     $('.sidenav').sidenav();
     $('.scrollspy').scrollSpy();
@@ -24,10 +39,14 @@ let fs = false;
 function Fullscreen() {
 
     if(fs == true) {
-        closeFullscreen()
+        closeFullscreen();
+        FSButton.classList.remove("btn-primary");
+        FSButton.classList.add("btn-outline-primary");
         fs = false;
     } else {
-        openFullscreen()
+        openFullscreen();
+        FSButton.classList.add("btn-primary");
+        FSButton.classList.remove("btn-outline-primary");
         fs = true;
     }
 }
