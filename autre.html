@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>titre</title>
+
+  <style>
+    div {
+      position: absolute;
+      background-color: rgb(65, 57, 172);
+      left: 50px;
+      width: 90px;
+      height: 90px;
+      margin: 5px;
+      border-radius: 100%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+</head>
+<body>
+  <div class="block"></div>
+
+
+  <script>
+    $( ".block" ).click(function() {
+      $( ".block" ).animate({ "width": "+=50px" }, 150 ).animate({ "height": "+=50px" }, 150 );
+    });
+
+    $(function () {
+      if ($( ".block" ).width() >= 300) {
+        $( ".block" ).width(10);
+        $( ".block" ).height(10);
+      }
+    });
+
+    </script>
+
+</body>
+</html>

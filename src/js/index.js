@@ -3,7 +3,7 @@ $(window).scroll(function(){
   $(".appear").each(function(){
     var distanceFromTop = $(this).offset().top;
     if(scrolledFromTop >= distanceFromTop+200){
-      console.log("hello");
+      console.log("scroll");
       var delaiAnim = $(this).data("delai");
       $(this).delay(delaiAnim).animate({
         top:0,
@@ -13,11 +13,21 @@ $(window).scroll(function(){
   });
 });
 
-$(document).ready(function () {
-    $('.sidenav').sidenav();
-    $('.scrollspy').scrollSpy();
-    $('.dropdown-trigger').dropdown();
-    $('select').formSelect();
+$(function () {
+    //$(".par1").hide(); Class
+    //$("#par1").hide(); ID
+    //$("h1").hide(); Elem.
+    //$("p:nth-child(2)").hide(); Deuxième balise de texte
+    
+});
+
+$(document).ready(function(){
+  $("#search").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#list li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
 });
 
 $(function () {

@@ -53,29 +53,38 @@
                 </li>
               </ul>
                 <button type="button" class="btn btn-outline-primary" onclick="Fullscreen()" id="FullScreenButton">FullScreen</button>
-                <button type="button" class="btn btn-outline-primary" onclick="" style="margin-left: 1%;">Nous contacter</button>
+                <button type="button" class="btn btn-outline-primary" onclick="" style="margin-left: 1%; margin-right: 1%;">Support</button>
+
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search" aria-label="Search">
+                </form>
             </div>
           </nav>
 
-          <div class="card card1">
-            <img src="./src/images/DevTools.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Dev Tools</h5>
-              <p class="card-text">Dev Tools est un bot qui aide au dévellopement. Il vous permetra notament d'installer des programme simplement avec des liens directs.</p>
-              <button class="btn btn-outline-primary" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=731297744420995153&scope=bot&permissions=8';">L'ajouter à son serveur</button>
-              <button class="btn btn-outline-primary" disabled style="margin-top: 3px;">Fiche du bot sur top.gg</button>
-            </div>
-          </div>
-
-          <div class="card card2">
-            <img src="./src/images/UtilsTools.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Utils Tools</h5>
-              <p class="card-text">UtilsTools est un futur bot qui vous sera sans doute pratique dans plusieurs situation. Il : raccourcira les urls, pourra télécharger des vidéos youtube format mp3 ou mp4, purra généré des nombres randoms, aura un salon avec des auto-reaction pour des votes et bien plus !</p>
-              <button class="btn btn-outline-primary" disabled>L'ajouter à son serveur</button>
-              <button class="btn btn-outline-primary" disabled style="margin-top: 3px;">Fiche du bot sur top.gg</button>
-            </div>
-          </div>
+          <ul id="list">
+            <li>
+              <div class="card card1">
+                <img src="./src/images/DevTools.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dev Tools</h5>
+                  <p class="card-text">Dev Tools est un bot qui aide au dévellopement. Il vous permetra notament d'installer des programme simplement avec des liens directs.</p>
+                  <button class="btn btn-outline-primary" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=731297744420995153&scope=bot&permissions=8';">L'ajouter à son serveur</button>
+                  <button class="btn btn-outline-primary" disabled style="margin-top: 3px;">Fiche du bot sur top.gg</button>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card card2">
+                <img src="./src/images/UtilsTools.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Utils Tools</h5>
+                  <p class="card-text">UtilsTools est un futur bot qui vous sera sans doute pratique dans plusieurs situation. Il : raccourcira les urls, pourra télécharger des vidéos youtube format mp3 ou mp4, purra généré des nombres randoms, aura un salon avec des auto-reaction pour des votes et bien plus !</p>
+                  <button class="btn btn-outline-primary" disabled>L'ajouter à son serveur</button>
+                  <button class="btn btn-outline-primary" disabled style="margin-top: 3px;">Fiche du bot sur top.gg</button>
+                </div>
+              </div>
+            </li>
+          </ul>
         </body>
     </body>
 </html>
