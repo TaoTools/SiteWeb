@@ -18,6 +18,7 @@ $(function () {
     //$("#par1").hide(); ID
     //$("h1").hide(); Elem.
     //$("p:nth-child(2)").hide(); Deuxième balise de texte
+  //J'aime le kaki
     
 });
 
